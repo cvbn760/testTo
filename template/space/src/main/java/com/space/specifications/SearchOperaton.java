@@ -1,0 +1,18 @@
+package com.space.specifications;
+
+public enum  SearchOperaton
+{
+    CONSTAINS,
+    SHIP_TYPE_EQUAL,
+    DATE_LESS_OR_EQUAL,
+    DATE_GREAT_OR_EQUAL,
+    USED_TRUE,
+    USED_FALSE,
+    SPEED_GREAT_OR_EQUAL,
+    SPEED_LESS_OR_EQUAL,
+    CREW_SIZE_LESS_OR_EQUAL,
+    CREW_SIZE_GREAT_OR_EQUAL,
+    RATING_GREAT_OR_EQUAL,
+    RATING_LESS_OR_EQUAL,
+    NULL;
+}
